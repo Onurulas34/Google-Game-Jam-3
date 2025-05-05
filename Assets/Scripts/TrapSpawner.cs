@@ -10,5 +10,8 @@ public class TrapSpawner : MonoBehaviour
         GameObject trap = Instantiate(trapPrefab, spawnPos, Quaternion.identity);
         Rigidbody2D rb = trap.GetComponent<Rigidbody2D>();
         rb.linearVelocityX = -trapSpeed; // sola gitsin
+        Debug.Log("Trap Oluşturuldu");
     }
+
+    
 }

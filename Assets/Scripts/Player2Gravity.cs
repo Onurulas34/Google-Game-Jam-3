@@ -31,6 +31,7 @@ public class Player2Gravity : MonoBehaviour
         hasPower = false;
         powerUpUIAnimator2.SetBool("isActivee", false);
         skillsSound2.Play();
+        
     }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
